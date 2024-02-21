@@ -1,0 +1,89 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: #FFBE98;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+
+.nome-clinica {
+    font-size: 3em;
+}
+
+.menu {
+    width: 20%;
+    background-color: #feece2;
+    padding: 10px 20px 0px;
+    font-size: 1.5em;
+    color: black;
+    font-weight: 600;    
+}
+
+.header {
+    background-color: white;
+    min-height: 150px;
+}
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;    
+}
+
+.table {
+    -webkit-box-shadow: 15px 15px 10px 5px rgba(255,190,152,0.64);
+    -moz-box-shadow: 15px 15px 10px 5px rgba(255,190,152,0.64);
+    box-shadow: 15px 15px 10px 5px rgba(255,190,152,0.64);
+    border: solid 2px black;
+    border-radius: 8px;
+    font-size: 2em;
+    padding: 5px;
+    margin: 5px;
+    text-align: justify;   
+}
+
+.thead{
+    background-color: #FFBE98;
+    color: black;
+    text-align: center;
+}
+
+.tbody{
+    tr:nth-child(even) td {
+        background-color: #feece2;
+    }
+    
+}
+
+.table-name {
+    font-size: 2em;
+}
+
+.footer {
+    background-color: #FFBE98;
+    min-height: 150px;
+}
+
+.form {
+    font-weight: 600;
+}
